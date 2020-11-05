@@ -1,0 +1,266 @@
+body::-webkit-scrollbar {
+    width: 0.4rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #454545;
+}
+
+body::-webkit-scrollbar-thumb {
+    background:  rgba(103,155,155,1);
+
+}
+
+.header {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(170,207,207,1) 10%, rgba(103,155,155,1) 100%);    background-size: cover;
+    min-height: 10vh;
+    width: 100%;
+    font-size: 1.6rem;
+
+  }
+
+  .header .navbar {
+    background-color: transparent !important;
+  }
+
+.content{
+}
+
+@media (max-width: 575.98px){
+
+    .content{
+
+        padding-top: 10%;
+
+    }
+}
+
+.index__Parrafo-Estilo{
+
+    color:#8C6B2E;
+    letter-spacing: 1px;
+    line-height: 15px;
+    font-size: 1.6rem;
+}
+
+.nosotros__Parafos--Estilo {
+
+    color:#8C6B2E;
+    letter-spacing: 1px;
+    line-height: 15px;
+    font-size: 1.6rem;
+    text-align: center;
+
+}
+
+
+.nos {
+
+    grid-area: nos;
+
+}
+
+.in {
+
+    grid-area: in;
+
+}
+
+.prod {
+
+    grid-area: prod;
+
+}
+
+.x1 {
+
+    grid-area: x1;
+
+}
+
+.x2 {
+
+    grid-area: x2;
+
+}
+
+
+.g_maps{
+
+    grid-area: g_maps;
+
+}
+
+#nosotros__grid {
+
+    display: grid;  
+    grid-template-areas: 
+    "nos in prod"
+    "x2 x1 g_maps";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1%;
+    
+
+}
+
+.nosotros__icons--tamaño {
+
+        width: 10vh;
+}
+
+
+@media (max-width:576px) {
+
+    #nosotros__grid{
+
+        grid-template-areas: 
+        "nos in"
+        "prod x2"
+        "x1 g_maps";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        
+    }
+
+    
+
+}
+
+.social-icons {
+    text-align: center;
+    }  
+  .social-icons li {
+    display:inline-block;
+    list-style-type:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    }
+  .social-icons li a {
+    border-bottom: none;
+    }
+  .social-icons li img {
+    widows: 50pxpx;
+    height:50px;
+    margin-right: 20px;
+  }
+
+.nosotros__icons--center{
+
+    text-align: center;
+
+}
+
+
+.nosotros__subtitulos {
+
+    font-size: 2.5rem;
+    text-decoration: underline;
+    color: #6A8C37 ;
+    text-align: center;
+
+}
+
+.ig {
+
+    text-align: right;
+
+}
+
+.productos {
+
+    display: grid;
+    grid-template-areas: 
+    "cap piel"
+    "cap otro";
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pr {
+
+    width: 10%;
+    background-color: rgb(89, 206, 206) ;
+    text-align: center;   
+    
+
+}
+
+.CI{
+    padding: 0.5%;
+    width: 99.5%;
+
+}
+
+.mediaCuid {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+}
+
+.cuidadoCapilar__imagen--diplay {
+
+    display: inline;
+    box-sizing: content-box;
+    padding: 1%;
+    transition: 1s;
+
+}
+
+.cuidadoCapilar__imagen--diplay:hover{
+
+    transform: scale(1.1,1.1);
+
+
+}
+.cremaPeinar__Display--grid{
+
+    display: grid;
+    grid-template-areas:
+    "title title title"
+    "descrip fot ingred"
+    "desc fot ingr";
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: 0.1fr auto auto;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+        
+    }
+
+.empty{
+    grid-area:empty;
+}
+.title{
+    grid-area:title;
+    text-align: center;
+}
+.desc{
+    grid-area:desc;
+    justify-content: center;
+}
+.fot{
+    grid-area:fot;
+}
+.ingr{
+    grid-area:ingr;
+    justify-content: center;
+}
+.ingred {
+    grid-area:ingred;
+    text-align: center;
+}
+.descrip{
+    grid-area: descrip;
+    text-align: center;
+}

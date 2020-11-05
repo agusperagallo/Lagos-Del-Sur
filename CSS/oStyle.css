@@ -1,0 +1,22 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: white;
+  font-family: 'EB Garamond', serif;
+  font-size: 1.6rem; }
+
+.Producto__Titulo {
+  font-size: 2rem;
+  color: #7D9C57; }
+
+.caracProd__image {
+  width: 80%;
+  align-items: center; }
+
+.image--center {
+  text-align: center; }
+
+.text__cremaPeinar {
+  font-family: 'Roboto', sans-serif;
+  color: #9a9a9a; }
