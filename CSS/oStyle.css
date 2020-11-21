@@ -18,5 +18,30 @@ body {
   text-align: center; }
 
 .text__cremaPeinar {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Noto Serif', serif;
   color: #9a9a9a; }
+
+.index__grid {
+  display: grid;
+  grid-template-areas: "veg eco env";
+  grid-template-columns: 1f 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 1%; }
+
+.veg {
+  grid-area: veg; }
+
+.eco {
+  grid-area: eco; }
+
+.env {
+  grid-area: env; }
+
+.img__grid--logos {
+  height: 13rem; }
+
+.producto__subtit--style {
+  background: white;
+  background: linear-gradient(90deg, white 0%, #679b9b 50%, white 100%);
+  text-align: center; }

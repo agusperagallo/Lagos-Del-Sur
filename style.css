@@ -46,11 +46,12 @@ body::-webkit-scrollbar-thumb {
 
 .nosotros__Parafos--Estilo {
 
-    color:#8C6B2E;
+    color:grey;
     letter-spacing: 1px;
     line-height: 15px;
     font-size: 1.6rem;
     text-align: center;
+    line-height: 20px;
 
 }
 
@@ -191,6 +192,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .CI{
+    display: inline;
     padding: 0.5%;
     width: 99.5%;
 
