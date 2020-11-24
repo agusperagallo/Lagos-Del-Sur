@@ -45,6 +45,3 @@ body {
   background: white;
   background: linear-gradient(90deg, white 0%, #679b9b 50%, white 100%);
   text-align: center; }
-
-.cards__productos--display {
-  display: inline; }
