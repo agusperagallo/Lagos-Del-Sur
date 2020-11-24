@@ -169,19 +169,6 @@ body::-webkit-scrollbar-thumb {
 
 }
 
-.productos {
-
-    display: grid;
-    grid-template-areas: 
-    "cap piel"
-    "cap otro";
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 2fr 1fr;
-    align-items: center;
-    justify-content: center;
-
-}
-
 .pr {
 
     width: 10%;
