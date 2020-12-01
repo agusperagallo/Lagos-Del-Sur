@@ -57,37 +57,59 @@
           </header>
     
         </div>
-        <section class="content">    
-    <h4>Contactate mediante email</h4>
-    <form>
-        <fieldset>
-            <label for="Nombre y Apellido">Nombre y Apellido</label>
-            <input type="text" name="Nombre y Apellido" placeholder="Nombre y Apellido">
-            <br>
-            <br>
-            <label for="Sexo">Sexo:</label>
-            <br>
-            <label>Hombre</label>
-            <input type="radio" name="Sexo" value="Hombre">
-            <label>Mujer</label>
-            <input type="radio" name="Sexo" value="Mujer">
-            <br>
-            <br>
-            <label for="Email">Email</label>
-            <input type="email" name="Email" placeholder="Email">
-            <br>
-            <br>
-            <label for="Mensaje">Mensaje</label>
-            <textarea name="Mensaje" placeholder="Mensaje"></textarea>
-            <br>
-            <br>
-            <label for="Novedades">Deseo recibir novedades.</label>
-            <input type="checkbox" name="Novedades">
-
-        </fieldset>
-        <input type="submit" name="Enviar">
-        <input type="reset" name="Restablecer">
-    </form>
+        <div class="container" style="font-size: 3rem;">
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="well well-sm">
+                      <form class="form-horizontal" method="post">
+                          <fieldset>
+                              <p class="nosotros__subtitulos">Contactanos</p> 
+      
+                              <div class="form-group">
+                                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                  <div class="col-md-8">
+                                      <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                  <div class="col-md-8">
+                                      <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
+                                  </div>
+                              </div>
+      
+                              <div class="form-group">
+                                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                  <div class="col-md-8">
+                                      <input id="email" name="email" type="text" placeholder="Email" class="form-control">
+                                  </div>
+                              </div>
+      
+                              <div class="form-group">
+                                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                  <div class="col-md-8">
+                                      <input id="phone" name="phone" type="text" placeholder="Telefono" class="form-control">
+                                  </div>
+                              </div>
+      
+                              <div class="form-group">
+                                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                  <div class="col-md-8">
+                                      <textarea class="form-control" id="message" name="message" placeholder="Ingrese su consulta acá" rows="7"></textarea>
+                                  </div>
+                              </div>
+      
+                              <div class="form-group">
+                                  <div class="col-md-12 text-center">
+                                      <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                                  </div>
+                              </div>
+                          </fieldset>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
     
 </section>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
